@@ -31,9 +31,17 @@ Antes de ejecutar este proyecto, asegúrate de tener los siguientes requisitos i
 
 - Crea una base de datos PostgreSQL utilizando los scripts proporcionados en la carpeta `scripts/`:
 
-  - Ejecuta `create_database.sql` para crear la base de datos y tablas necesarias.
+  - Abre una terminal.
+ 
+  - Ejecuta `psql -U tu_usuario` y despues vas a colocar tu contraseña.
+ 
+  - Ejecuta el comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\DataBase\\create_database_testing_company.sql'` no olvides cambiar la ruta donde esta el proyecto y colocal la carpeta `DataBase`, este nos creara la base de datos.
 
-  - Ejecuta `stored_procedures.sql` para crear los procedimientos almacenados requeridos.
+  - Ejecuta el comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\StoredProcedures\\stored_procedures_locations.sql'` no olvides cambiar la ruta donde esta el proyecto y colocal la carpeta `StoredProcedures`, este creara los procedimientos de almacenado del esquema `locations`.
+
+  - Ejecuta el comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\StoredProcedures\\stored_procedures_users.sql'` no olvides cambiar la ruta donde esta el proyecto y colocal la carpeta `StoredProcedures`, este creara los procedimientos de almacenado del esquema `users`.
+
+  - Puedes cargar datos de prueba ejecutando el siguiente comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\StoredProcedures\\insert_test_data.sql'`
 
 - Actualiza la cadena de conexión a la base de datos en el archivo `appsettings.json`:
 
