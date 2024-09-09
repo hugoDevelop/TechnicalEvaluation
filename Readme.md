@@ -22,8 +22,8 @@ Antes de ejecutar este proyecto, asegúrate de tener los siguientes requisitos i
    Abre una terminal y clona el repositorio del proyecto:
 
    ```bash
-   git clone https://github.com/tu_usuario/nombre_repositorio.git
-   cd nombre_repositorio
+   git clone https://github.com/hugoDevelop/TechnicalEvaluation.git
+   cd TechnicalEvaluation
 
    ```
 
