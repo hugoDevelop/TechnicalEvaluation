@@ -71,7 +71,7 @@ dotnet build
 
 4. **Ejecutar el proyecto**
 
-Finalmente, para ejecutar el proyecto, utiliza:
+Finalmente, para ejecutar el proyecto entras a la carpeta `TechnicalEvaluationApiRest`, utiliza:
 
 ```bash
 dotnet run
