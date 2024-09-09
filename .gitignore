@@ -1,0 +1,6 @@
+# Ignorar carpetas de Visual Studio Code
+.vscode/
+
+# Ignorar carpetas bin y obj en cualquier nivel
+**/obj/
+**/bin/
