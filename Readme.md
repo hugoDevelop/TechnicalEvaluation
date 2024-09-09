@@ -41,7 +41,7 @@ Antes de ejecutar este proyecto, asegúrate de tener los siguientes requisitos i
 
   - Ejecuta el comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\StoredProcedures\\stored_procedures_users.sql'` no olvides cambiar la ruta donde esta el proyecto y colocal la carpeta `StoredProcedures`, este creara los procedimientos de almacenado del esquema `users`.
 
-  - Puedes cargar datos de prueba ejecutando el siguiente comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\StoredProcedures\\insert_test_data.sql'`
+  - Puedes cargar datos de prueba ejecutando el siguiente comando `\i 'C:\\Tu\\Ruta\\Del\\Proyecto\\TechnicalEvaluation\\DataBase\\insert_test_data.sql'` no olvides cambiar la ruta donde esta el proyecto y colocal la carpeta `DataBase` (Paso OPCIONAL).
 
 - Actualiza la cadena de conexión a la base de datos en el archivo `appsettings.json`:
 
@@ -77,7 +77,7 @@ Finalmente, para ejecutar el proyecto, utiliza:
 dotnet run
 ```
 
-La API estará disponible en `https://localhost:5001` o `http://localhost:5000`.
+La API estará disponible en `https://localhost:5007` o `http://localhost:5000`.
 
 ## Endpoints
 
